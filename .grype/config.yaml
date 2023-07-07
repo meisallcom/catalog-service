@@ -1,0 +1,14 @@
+ignore:
+  # This is the full set of supported rule fields:
+  - vulnerability: CVE-2023-35116
+  - vulnerability: GHSA-mjmj-j48q-9wg2
+#    fix-state: unknown
+#    package:
+#      name: jackson-databind
+#      version: 2.15.2
+#      type: java-archive
+  # We can list as many of these as we want
+  #- vulnerability: CVE-2022-22965
+  # Or list whole packages which we want to ignore
+  #- package:
+  #    type: gem
